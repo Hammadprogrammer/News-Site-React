@@ -1,39 +1,4 @@
-// import React from 'react'
-// // import Btn from './Btn';
 
-// const Card = ({data}) => {
-//     console.log(data);
-   
-    
-//   return (
-// <>
-
-// {
-//     data? data.map((item,index)=>{
-//       if (!item.urlToImage) {
-//         return null
-//       }else{
-//         return<div className='border-2 w-72 h-[480px] float-start grid justify-items-center  ms-[55px] mt-5  '>
-//             <div > <img src={item.urlToImage} alt="" className='w-72 h-56 '/>
-         
-//                 <a className='text-[12px] font-bold underline hover:underline-offset-4 'onClick={()=>window.open(item.url)}>{item.title}</a>
-//                 <p className='text-[14px] mt-3  '>{item.description}</p>
-//                 <button className=' bg-orange-600 mt-5 hover:bg-orange-700 rounded-lg p-1 mx-2 text-white font-bold '  onClick={()=>window.open(item.url)} >Read More</button>
-//                 </div>
-           
-//         </div> 
-//       }
-
-        
-      
-//     }):<h1>Loading</h1>
-// }
-
-// </>
-//   )
-// }
-
-// export default Card
 
 
 import React from 'react';
